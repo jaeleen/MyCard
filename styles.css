@@ -1,0 +1,85 @@
+body{
+    background-color: #D6E5FA;
+    color: #111;
+}
+.header{
+    font-family: 'Gochi Hand', cursive;
+    font-size: 30px;
+    letter-spacing: 0.2rem;
+    width: 100%;
+    text-align: center;
+}
+.card{
+    border-radius: 5px;
+    box-shadow: 5px 5px #031424a1;
+    margin: auto;
+    background: #eee;
+    height: 400px;
+    width: 50%;
+}
+
+.aboutme{
+    margin-top: 50px;
+    padding: 20px;
+}
+.aboutme h3{
+    text-align: left;
+    letter-spacing: 0.2rem;
+    color: #04293A;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.05rem;
+    text-align: left;
+    font-size: 15px;
+
+}
+#current-classes{
+    font-size: 15px;
+    font-weight: lighter;
+}
+i{
+    cursor: pointer;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-right: 15px;
+}
+i:hover{
+    transform: scale(1.05);
+}
+.connect{
+    margin-top: -10px;
+    letter-spacing: 0.05rem;
+    font-size: 8px;
+    color: rgba(17, 17, 17, 0.664);
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFF9F9;
+    color: #04293A;
+    text-align: center;
+ }
+
+ /* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
